@@ -16,6 +16,17 @@ import javax.persistence.Table;
 @Table(name = "T_Address")
 public class Address implements Serializable {
 
+    public Address() {
+    }
+
+    public Address(String country, String city, String zip, String street, String streetNumber) {
+        this.country = country;
+        this.city = city;
+        this.zip = zip;
+        this.street = street;
+        this.streetNumber = streetNumber;
+    }
+
     @Id
     @GeneratedValue
     private Long id;
