@@ -10,9 +10,9 @@ import org.apache.maven.plugins.annotations.Mojo;
  *
  * @author saj
  */
- @Mojo(name = "simple", defaultPhase = LifecyclePhase.COMPILE)
+ @Mojo(name = "hello", defaultPhase = LifecyclePhase.COMPILE)
 //@Mojo(name = "simple")
-public class SimpleMojo extends AbstractMojo {
+public class HelloMojo extends AbstractMojo {
 
     @Override
     public void execute() throws MojoExecutionException, MojoFailureException {
