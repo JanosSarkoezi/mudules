@@ -20,12 +20,13 @@
         <plugins>
             <plugin>
                 <groupId>com.mycompany</groupId>
-                <artifactId>maven-super-plugin</artifactId>
+                <artifactId>simple-maven-plugin</artifactId>
                 <version>1.0-SNAPSHOT</version>
                 <executions>
                     <execution>
                         <goals>
-                            <goal>simple</goal>
+                            <goal>hello</goal>
+                            <goal>list</goal>
                         </goals>
                     </execution>
                 </executions>

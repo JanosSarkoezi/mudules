@@ -11,7 +11,6 @@ import org.apache.maven.plugins.annotations.Mojo;
  * @author saj
  */
  @Mojo(name = "hello", defaultPhase = LifecyclePhase.COMPILE)
-//@Mojo(name = "simple")
 public class HelloMojo extends AbstractMojo {
 
     @Override
